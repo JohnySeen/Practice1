@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstline {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.firstline-text-box {
+    padding: 55px 50px 0 57px;
+}
+
+.firstline-text-box-element{
+    padding-bottom: 0px;
+}
+
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 75px 0 60px 0 ;
+    letter-spacing: 0px;
+}
+
+.h1-bold {
+    font-weight: bold;
+}
+
+.h1-regular {
+    font-weight: 400;
+}
+
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 18px;
+    padding-bottom: 45px;
+    line-height: 27px;
+    letter-spacing: 2px;
+}
+
+.secondline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 70px 0 37px 0;
+    letter-spacing: 2px;
+}
+
+.h2-bold {
+    font-weight: 900;
+}
+
+.h2-black {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 70px 0 50px 0;
+    letter-spacing: 2px;
+    color: #262f32;
+}
+
+.h2-black-bold{
+    font-weight: 900;
+}
+
+.p2-white {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 15px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+.p2-white:last-child {
+    padding-bottom: 0px;
+}
+
+.p2-shortbox-black {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 17px;
+    padding-bottom: 55px;
+    color: #262f32;
+    line-height: 28px;
+
+}
+
+.p2-shortbox-white {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 17px;
+    padding-bottom: 55px;
+    color: #ffffff;
+    line-height: 28px;
+
+}
+
+.longbox {
+    background-image: url(/Pics/Rectangle2.png);
+    background-size: cover;
+    padding: 0 100px 70px 60px;
+    flex-basis: 89%; 
+    max-width: 614px;
+}
+
+.shortbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.yellowbox {
+    background-image: url(/Pics/Rectangle3.png);
+    background-size: cover;
+    padding: 0 100px 70px 60px;
+}
+
+.greybox {
+    background-image: url(/Pics/Rectangle4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 100px 70px 60px;
+}
+
+.button {
+    height: 50px;
+    width: 210px;
+    border: 1px solid #262f32;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 16px;
+    color: #262f32;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: capitalize;
+}
+
+.white {
+    color: #fff;
+    border-color: #ffffff;
+}
+
+/*  СЕКЦИЯ 3 ПОСЛЕДНЯЯ */
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left-side {
+    flex-basis: 32%;
+    background-image: url(/Pics/background3-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 65px 70px 60px;
+}
+
+.h2-ali {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 33px 0 21px 0 ;
+    letter-spacing: 2px;
+}
+
+.logo {
+    padding-top: 221px;
+
+}
+
+.prof {
+    text-transform: capitalize;
+    padding-bottom: 0px;
+}
+
+.right-side {
+    flex-basis: 68%;
+    background-image: url(/Pics/backgroun3-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 65px 70px 60px;
+}
+
+.formsection {
+    margin-bottom: 95px;
+}
+
+.formline1 div input{
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding-right: 13px;
+    height: 55px;
+    width: 300px;
+}
+
+.formline2 textarea {
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding-right: 13px;
+    height: 159px;
+    width: 617px;
+}
+
+.social {
+    padding: 22px 0 50px 0;
+}
